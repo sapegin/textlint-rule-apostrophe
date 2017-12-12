@@ -18,6 +18,7 @@
   ],
   "scripts": {
     "pretest": "npm run lint",
+    "test": "jest",
     "lint": "eslint . --ext .js --fix",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -33,8 +34,10 @@
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-tamia": "^3.3.2",
+    "jest": "^21.2.1",
     "semantic-release": "^6.3.2",
-    "semantic-release-tamia": "^1.1.1"
+    "semantic-release-tamia": "^1.1.1",
+    "textlint-tester": "^3.0.3"
   },
   "dependencies": {},
   "release": {
