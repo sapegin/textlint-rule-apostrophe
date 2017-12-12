@@ -1,7 +1,7 @@
 {
   "name": "textlint-rule-apostrophe",
-  "version": "0.0.0-development",
-  "description": "TextLint rule to check correct apostrophe usage",
+  "version": "1.0.0",
+  "description": "Textlint rule to check correct apostrophe usage",
   "author": {
     "name": "Artem Sapegin",
     "url": "http://sapegin.me"
