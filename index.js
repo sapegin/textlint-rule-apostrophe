@@ -1,4 +1,4 @@
-const evilApostropheRegExp = /\w+['‘]\w*/g;
+const evilApostropheRegExp = /\w+['‘](?:\w['‘])?\w*/g;
 const evilApostrophe = /['‘]/g;
 const goodApostrophe = '’';
 
