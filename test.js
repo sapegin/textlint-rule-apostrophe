@@ -15,7 +15,8 @@ tester.run('apostrophe', rule, {
 			output: 'as in the eagle’s feathers',
 			errors: [
 				{
-					message: "Incorrect usage of an apostrophe: “eagle's”, use “eagle’s” instead",
+					message:
+						"Incorrect usage of an apostrophe: “eagle's”, use “eagle’s” instead",
 				},
 			],
 		},
@@ -24,7 +25,8 @@ tester.run('apostrophe', rule, {
 			output: 'rock’n’roll',
 			errors: [
 				{
-					message: "Incorrect usage of an apostrophe: “rock'n'roll”, use “rock’n’roll” instead",
+					message:
+						"Incorrect usage of an apostrophe: “rock'n'roll”, use “rock’n’roll” instead",
 				},
 			],
 		},
@@ -33,10 +35,12 @@ tester.run('apostrophe', rule, {
 			output: 'my sisters’ friends’ investments',
 			errors: [
 				{
-					message: "Incorrect usage of an apostrophe: “sisters'”, use “sisters’” instead",
+					message:
+						"Incorrect usage of an apostrophe: “sisters'”, use “sisters’” instead",
 				},
 				{
-					message: "Incorrect usage of an apostrophe: “friends'”, use “friends’” instead",
+					message:
+						"Incorrect usage of an apostrophe: “friends'”, use “friends’” instead",
 				},
 			],
 		},

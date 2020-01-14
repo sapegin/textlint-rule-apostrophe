@@ -10,14 +10,21 @@ function reporter(context) {
 				const text = getSource(node);
 
 				let match;
-				while (match = evilApostropheRegExp.exec(text)) { // eslint-disable-line no-cond-assign
+				// eslint-disable-next-line no-cond-assign
+				while ((match = evilApostropheRegExp.exec(text))) {
 					const index = match.index;
 					const matched = match[0];
 					const replacement = matched.replace(evilApostrophe, goodApostrophe);
 					const range = [index, index + matched.length];
 					const fix = fixer.replaceTextRange(range, replacement);
 					const message = `Incorrect usage of an apostrophe: “${matched}”, use “${replacement}” instead`;
-					report(node, new RuleError(message, { index, fix }));
+					report(
+						node,
+						new RuleError(message, {
+							index,
+							fix,
+						})
+					);
 				}
 
 				resolve();

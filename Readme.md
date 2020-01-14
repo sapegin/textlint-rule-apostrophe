@@ -1,8 +1,6 @@
 # textlint-rule-apostrophe
 
-[![textlint fixable rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/)
-[![Build Status](https://travis-ci.org/sapegin/textlint-rule-apostrophe.svg)](https://travis-ci.org/sapegin/textlint-rule-apostrophe)
-[![npm](https://img.shields.io/npm/v/textlint-rule-apostrophe.svg)](https://www.npmjs.com/package/textlint-rule-apostrophe)
+[![textlint fixable rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) [![Build Status](https://travis-ci.org/sapegin/textlint-rule-apostrophe.svg)](https://travis-ci.org/sapegin/textlint-rule-apostrophe) [![npm](https://img.shields.io/npm/v/textlint-rule-apostrophe.svg)](https://www.npmjs.com/package/textlint-rule-apostrophe)
 
 [Textlint](https://github.com/textlint/textlint) rule to check and fix correct apostrophe usage: replace `'` and `‘` with `’`.
 
@@ -34,9 +32,9 @@ textlint --fix --rule apostrophe Readme.md
 
 ## Other textlint rules
 
-* [textlint-rule-diacritics](https://github.com/sapegin/textlint-rule-diacritics) — words with diacritics
-* [textlint-rule-stop-words](https://github.com/sapegin/textlint-rule-stop-words) — filler words, buzzwords and clichés
-* [textlint-rule-terminology](https://github.com/sapegin/textlint-rule-terminology) — correct terms spelling
+- [textlint-rule-diacritics](https://github.com/sapegin/textlint-rule-diacritics) — words with diacritics
+- [textlint-rule-stop-words](https://github.com/sapegin/textlint-rule-stop-words) — filler words, buzzwords and clichés
+- [textlint-rule-terminology](https://github.com/sapegin/textlint-rule-terminology) — correct terms spelling
 
 ## Change log
 
