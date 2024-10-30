@@ -4,7 +4,9 @@
 
 [Textlint](https://github.com/textlint/textlint) rule to check and fix correct apostrophe usage: replace `'` and `‘` with `’`.
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/273Q363N452m0x0b393E/apostrophe.png)
+![textlint-rule-apostrophe screenshot](https://d3vv6lp55qjaqc.cloudfront.net/items/273Q363N452m0x0b393E/apostrophe.png)
+
+[![Washing your code. A book on clean code for frontend developers](https://sapegin.me/images/washing-code-github.jpg)](https://sapegin.me/book/)
 
 ## Installation
 
