@@ -1,6 +1,6 @@
 # textlint-rule-apostrophe
 
-[![textlint fixable rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) [![Build Status](https://travis-ci.org/sapegin/textlint-rule-apostrophe.svg)](https://travis-ci.org/sapegin/textlint-rule-apostrophe) [![npm](https://img.shields.io/npm/v/textlint-rule-apostrophe.svg)](https://www.npmjs.com/package/textlint-rule-apostrophe)
+[![textlint fixable rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) [![![Node.js CI status](https://github.com/sapegin/textlint-rule-apostrophe/workflows/Node.js%20CI/badge.svg)](https://github.com/sapegin/textlint-rule-apostrophe/actions) [![npm](https://img.shields.io/npm/v/textlint-rule-apostrophe.svg)](https://www.npmjs.com/package/textlint-rule-apostrophe)
 
 [Textlint](https://github.com/textlint/textlint) rule to check and fix correct apostrophe usage: replace `'` and `‘` with `’`.
 
